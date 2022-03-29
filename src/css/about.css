@@ -1,0 +1,61 @@
+
+#about{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.pic-personal{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.pic-personal img{
+    border-radius: 50%;
+}
+.data-personal{
+    display:flex;
+    justify-content:space-evenly ;
+    text-align: center;
+    border: 20px solid white;
+    border-top: none;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.aboutMe p{
+    margin-left: 2%;
+    font-weight: 800;
+    font-size:medium;
+    display:inline-flex;
+    justify-content: flex-end;
+}
+
+.anco-links{
+    margin-bottom: 3.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anco-links a{
+    padding: 5px;
+    border: 2px solid white;
+    border-bottom: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background-color:transparent;
+    box-shadow: 2px 2px 5px rgb(15, 15, 15)
+}
+
+.anco-links a:hover{
+    border: 2px solid rgb(39, 71, 133);
+    border-bottom: none;
+    color:rgb(39, 71, 133);
+    background-color:white;
+    box-shadow: 2px 2px 5px #ffffff
+}

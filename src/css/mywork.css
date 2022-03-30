@@ -3,6 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 50px solid white;
+    border: 30px solid rgb(39, 71, 133);
     border-radius:50%;
 }

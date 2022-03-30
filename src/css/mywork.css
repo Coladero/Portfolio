@@ -1,0 +1,8 @@
+.appWeb-container{
+    padding: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 50px solid white;
+    border-radius:50%;
+}

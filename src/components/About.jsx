@@ -8,7 +8,7 @@ function About() {
   
     <div className='container-deta'>
     <div className='pic-personal'>
-        <img width="300px" src={photo} alt="Juan" />
+        <img width="200px" src={photo} alt="Juan" />
     <div  className='aboutMe'>
       <p>I'm Juan Manuel Flores Martin,<br />
       I worked for almost 5 years in the hospitality, more specifically as a Chef, it was a good experience and 

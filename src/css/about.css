@@ -1,12 +1,13 @@
 
 #about{
-    margin-top: 4%;
+    margin-top: 9%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 
 .pic-personal{
+    margin-left: 10%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +30,10 @@
 
 .aboutMe p{
     margin-left: 2%;
-    font-weight: 800;
+    margin-right:30%;
+    padding: 10px;
+    background-color: rgba(46, 66, 248, 0.226);
+    border: 5px double rgb(39, 71, 133);
     font-size:medium;
     display:inline-flex;
     justify-content: flex-end;
@@ -41,7 +45,7 @@
     justify-content: space-evenly;
 }
 
-.anco-links a{
+.anco-links a:hover{
     padding: 5px;
     border: 2px solid rgb(39, 71, 133);
     border-bottom: none;
@@ -52,10 +56,13 @@
     box-shadow: 2px 2px 5px rgb(15, 15, 15)
 }
 
-.anco-links a:hover{
-    border: 2px solid rgb(39, 71, 133);
+.anco-links a{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
     border-bottom: none;
     color:white;
+    text-decoration: none;
     background-color:rgb(39, 71, 133);
-    box-shadow: 2px 2px 5px #ffffff
+    box-shadow: 2px 2px 5px #3b3b3b
 }
